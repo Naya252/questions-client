@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = '/api/questions/';
+const url = 'https://questions-api-889n.onrender.com/api/questions/';
 
 class QuestionService {
   //Get Questions
