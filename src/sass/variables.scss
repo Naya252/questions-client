@@ -1,0 +1,31 @@
+
+$color-link: #28d6aa;
+$active-color: #4897df;
+$text-color: #212229;
+$text-color-dark: #70737c;
+$head-color: #494c57;
+$cancel-color: #70737c;
+$danger-color: #dc3545;
+$active-form-color: #2682d9;
+
+$text-field-outlined-fieldset-border: 1px solid currentColor !default;
+$pagination-item-height: 24px !default;
+$pagination-item-min-width: 24px !default;
+$pagination-navigation-height: 24px !default;
+$pagination-navigation-width: 24px !default;
+$dialog-margin: 0 !default;
+
+
+
+#app.theme--dark,
+#app.v-application.theme--dark,
+.v-application.theme--dark {
+  color: $text-color-dark;
+}
+
+#app,
+#app.v-application,
+.v-application {
+  color: $text-color;
+}
+
